@@ -47,24 +47,24 @@
       <form method="" onsubmit="myFunction(); return false;" id="first-stage">
         <div class="card-footer">
           <label for="name"> Cardholder Name</label>
-          <input type="text" id="name" placeholder="e.g. Jane Appleseed" autocomplete="cc-csc">
+          <input type="text" id="name" placeholder="e.g. Jane Appleseed" autocomplete="cc-csc" required>
           <label for="text">card number</label>
           <input type="text" id="number" name="number" value="" placeholder="e.g. 1234 5678 9123 0000"
-            autocomplete="cc-csc" pattern="[0-9]+" maxlength="16">
+            autocomplete="cc-csc" pattern="[0-9]+" maxlength="16" required>
           <div class="wrapper">
             <div class="wrapper-date">
               <label for="date">exp. date (mm/yy)</label>
               <div class="x">
                 <input type="text" id="month" name="month" class="input-month" placeholder="mm" autocomplete="cc-csc"
-                  maxlength="2">
+                  maxlength="2" required>
                 <input type="text" id="year" name="year" class="input-year" placeholder="yy" autocomplete="cc-csc"
-                  maxlength="2">
+                  maxlength="2" required>
               </div>
             </div>
             <div class="wrapper-cvc">
               <label for="cvc">cvc</label>
               <input type="text" id="cvc" name="cvc" class="input-cvc" placeholder="e.g. 123" autocomplete="cc-csc"
-                maxlength="3">
+                maxlength="3" required>
               <p id="errorCvc"></p>
             </div>
           </div>
