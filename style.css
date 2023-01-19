@@ -253,10 +253,6 @@ color: var(--dark-grayish-violet);
 text-align: center;
 }
 
-footer {
-    margin-top: 3rem;
-}
-
 @media only screen and (min-width: 1200px) {
     .container {
         flex-direction: row;
