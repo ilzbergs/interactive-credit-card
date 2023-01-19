@@ -257,11 +257,11 @@ footer {
     margin-top: 3rem;
 }
 
-@media only screen and (min-width: 1440px) {
+@media only screen and (min-width: 1200px) {
     .container {
         flex-direction: row;
         width: var(--desktop-width);
-        background-image: url(./images/bg-main-desktop.png);
+        background-image: url(/images/bg-main-desktop.png);
         background-repeat: no-repeat;
     }
 
