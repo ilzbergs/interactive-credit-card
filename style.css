@@ -257,7 +257,7 @@ text-align: center;
     .container {
         flex-direction: row;
         width: var(--desktop-width);
-        background-image: url("images/bg-main-desktop.png");
+        background-image: url("./images/bg-main-desktop.png");
         background-repeat: no-repeat;
     }
 
