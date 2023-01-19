@@ -32,26 +32,20 @@ inputCvc.onkeyup = function () {
 
 
 document.getElementsByClassName("input-cvc")[0].addEventListener("input", cvc);
-class cvc {
-    constructor() {
-        this.value = this.value.replace(/[^\d]/, '');
+function cvc() {
+    this.value = this.value.replace(/[^\d]/, '');
 
-    }
 }
 
 document.getElementsByClassName("input-year")[0].addEventListener("input", year);
-class year {
-    constructor() {
-        this.value = this.value.replace(/[^\d]/, '');
-    }
+function year() {
+    this.value = this.value.replace(/[^\d]/, '');
 }
 
 document.getElementsByClassName("input-month")[0].addEventListener("input", month);
-class month {
-    constructor() {
-        this.value = this.value.replace(/[^\d]/, '');
+function month() {
+    this.value = this.value.replace(/[^\d]/, '');
 
-    }
 }
 
 function myFunction() {
